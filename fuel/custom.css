@@ -1,0 +1,22 @@
+body {
+	font-family: 'Bree Serif', sans-serif;
+	background-color: #000;
+	color: #FFF;
+	padding: 4vw;
+}
+
+#pink {
+	color: #e90e8d;
+}
+
+.buybutton {
+	background-color: #e90e8d;
+	padding: 10px;
+	width: 50%;
+	border-radius: 10px;
+	font-size: 6vw;
+}
+
+.center {
+	text-align:center;
+}
