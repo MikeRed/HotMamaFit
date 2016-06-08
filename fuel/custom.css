@@ -10,9 +10,7 @@ video {
   height: auto   !important;
 }
 
-#pink {
-	color: #e90e8d;
-}
+#pink { color: #e90e8d; }
 
 .buybutton {
 	background-color: #e90e8d;
@@ -28,8 +26,16 @@ video {
 	border-color: #000;
 }
 
-.center {
-	text-align:center;
+.center { text-align:center; }
+
+.ignitebg {background-image: url("../images/ignitebg.psd") !important;}
+
+.whitewell {
+	background-color: #FFF;
+	color: #000; 
 }
 
-
+.blackwell { 
+	background-color: #000;
+	color: #FFF;  
+}
