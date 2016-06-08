@@ -1,8 +1,5 @@
 body {
 	font-family: 'Bree Serif', sans-serif;
-	background-color: #000;
-	color: #FFF;
-	padding: 4vw;
 }
 
 video {
@@ -12,30 +9,44 @@ video {
 
 #pink { color: #e90e8d; }
 
+#lindsay {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
 .buybutton {
 	background-color: #e90e8d;
 	padding: 10px;
 	width: 50%;
-	border-radius: 10px;
-	border-color: #000;
+	border: none;
+	/*border-radius: 10px;*/
+	/*border-color: #e90e8d*/
 	font-size: 6vw;
 }
 
 .buybutton:hover {
 	background-color: rgba(233,14,141,0.6);
-	border-color: #000;
+	border-color: #e90e8d;
 }
 
 .center { text-align:center; }
 
-.ignitebg {background-image: url("../images/ignitebg.psd") !important;}
+.ignitebg { 
+	background-image: url("../images/ignitebg.psd");
+	background-color: #FFF;
+	padding: 4vw;
+	color: #000;
+}
 
 .whitewell {
 	background-color: #FFF;
 	color: #000; 
+	padding: 4vw;
 }
 
 .blackwell { 
 	background-color: #000;
 	color: #FFF;  
+	padding: 4vw;
 }
