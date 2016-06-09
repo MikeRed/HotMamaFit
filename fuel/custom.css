@@ -7,13 +7,16 @@ video {
   height: auto   !important;
 }
 
-@media (max-width: 550px) {
+@media (min-width:641px) {
 	.buybutton {
 		padding: 10px;
-		margin: 35px;
-		width: 200px;
-		font-size: 2.5vw;
-		color: blue;
+		margin: 30px;
+		width: 280px;
+		font-size: 30px;
+	}
+
+	p {
+		font-size: 24px;
 	}
 }
 
@@ -29,11 +32,19 @@ video {
 .ignitebg {
 	padding: 25px;
 }
+
 h1 {
 	font-size: 5em;
+	padding: 10px;
 }
+
 p {
 	padding: 15px;
+	font-size: 16px;
+}
+
+ul li {
+	line-height: 30px;
 }
 
 .buybutton {
