@@ -7,7 +7,18 @@ video {
   height: auto   !important;
 }
 
+@media (max-width: 550px) {
+	.buybutton {
+		padding: 10px;
+		margin: 35px;
+		width: 200px;
+		font-size: 2.5vw;
+		color: blue;
+	}
+}
+
 #pink { color: #e90e8d; }
+
 
 #lindsay {
 	width: 150px;
@@ -15,14 +26,24 @@ video {
 	border-radius: 50%;
 }
 
+.ignitebg {
+	padding: 25px;
+}
+h1 {
+	font-size: 5em;
+}
+p {
+	padding: 15px;
+}
+
 .buybutton {
 	background-color: #e90e8d;
 	padding: 10px;
+	margin: 35px;
 	width: 50%;
 	border: none;
-	/*border-radius: 10px;*/
-	/*border-color: #e90e8d*/
-	font-size: 6vw;
+	border-radius: 10px;
+	font-size: 5.5vw;
 }
 
 .buybutton:hover {
@@ -32,7 +53,7 @@ video {
 
 .center { text-align:center; }
 
-.ignitebg { 
+.ignitebg {
 	background-image: url("../images/ignitebg.psd");
 	background-color: #FFF;
 	padding: 4vw;
@@ -41,12 +62,12 @@ video {
 
 .whitewell {
 	background-color: #FFF;
-	color: #000; 
+	color: #000;
 	padding: 4vw;
 }
 
-.blackwell { 
+.blackwell {
 	background-color: #000;
-	color: #FFF;  
+	color: #FFF;
 	padding: 4vw;
 }

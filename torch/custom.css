@@ -14,9 +14,14 @@ video {
 	color: #e90e8d;
 }
 
+.ignitebg {
+	padding: 25px;
+}
+
 .buybutton {
 	background-color: #e90e8d;
 	padding: 10px;
+	margin: 90px;
 	width: 50%;
 	border-radius: 10px;
 	border-color: #000;
@@ -31,5 +36,3 @@ video {
 .center {
 	text-align:center;
 }
-
-
