@@ -17,13 +17,35 @@ body {
 	width: 90%;
 }
 
-.level-button {
-	background-color: #e90e8d;
+
+.level-button-1 {
+	background: #e8b9d5;
 	padding: 10px;
 	width: 100%;
-	border-radius: 10px;
-	
+	border-radius: 18px;
 }
+
+.level-button-2 {
+	background: #e380b4;
+	padding: 10px;
+	width: 100%;
+	border-radius: 18px;
+}
+
+.level-button-3 {
+	background: #e14b9b;
+	padding: 10px;
+	width: 100%;
+	border-radius: 18px;
+}
+
+.level-button-4 {
+	background: #e90b8d;
+	padding: 10px;
+	width: 100%;
+	border-radius: 18px;
+}
+
 
 .btn-primary {
 	padding: 2vw 4vw;
@@ -39,7 +61,7 @@ body {
 	padding: 10px;
 }
 h1 {
-	font-size: 6vw;
+	font-size: 9vw;
 	color: #fff;
 	
 
@@ -64,7 +86,16 @@ p {
 
 #pink {
 	color: #e90e8d;
+	font-size: 9vw
 }
+
+#pink-2 {
+	color: #e90e8d;
+	text-align: center;
+	font-size: 9vw
+}
+
+
 
 input[type=radio] {
     border: 0px;
@@ -90,7 +121,7 @@ input[type=radio] {
 }
 
 .row-fluid {
-	columns: 2 1em;
+	columns: 1 1em;
 	flex-flow: row wrap;
 }
 
@@ -110,53 +141,60 @@ input[type=radio] {
 	<div class = "row-fluid">
 		<div class="heading-container">
 			<h1>Thanks!</h1>
-			<h2 >Check your email for your <img src="../images/ignite.svg" class = "ignite"/> promo code NOW!</h2>
+			<h2 >Choose your fitness level to activate your <img src="../images/ignite.svg" class = "ignite"/> promo code NOW!</h2>
 		</div>
-		<h2 id = "pink">Select your current fitness level:</h2>
+		<h2 id = "pink">Select your current</h2>
+		<h2 id = "pink-2">fitness level:</h2>
 		
-		<!-- <div class="col-sm-6 col-xs-12"> -->
-			<div class="radio">
-				<div class="level-button">
-					<label><input type="radio" name="optradio" id="begin"><h3>Beginner:</h3></label>				
-					<p>I have trouble getting off the couch most days.</p>
-				</div>
-			</div>
-		<!-- </div> -->
 
 		<!-- <div class="col-sm-6 col-xs-12"> -->
 			<div class="radio">
-				<div class="level-button">
-					<label><input type="radio" name="optradio" id="int"><h3>Intermediate:</h3></label>
-					<p>I run with my dog/stroller(or maybe your dog in a stroller; we don't judge) a couple times a week.</p>
+				<div class="level-button-1">
+					<!--<label><input type="radio" name="optradio" id="begin"><h3>Beginner</h3></label>-->
+					<a href="http://hotmamafit.com/ignite/fuel.html" style="text-decoration: none;"<label><h3>Fuel: Beginner</h3></label></a>
+					<!--<input type=button onClick="parent.location='index.html'" value='<label><h3>Beginner</h3></label>'>-->	
 				</div>
+					
 			</div>
-		<!-- </div> -->
-
-		<!-- <div class="col-sm-6 col-xs-12"> -->
+			
 			<div class="radio">
-				<div class="level-button">
-					<label><input type="radio" name="optradio" id="adv"><h3>Advanced:</h3></label>
-					<p>My treadmill is my best buddy! We spoon at night.</p>
+				<div class="level-button-2">
+					<!--<label><input type="radio" name="optradio" id="begin"><h3>Beginner</h3></label>-->
+					<a href="http://hotmamafit.com/ignite/flash.html" style="text-decoration: none;"<label><h3>Flash: Intermidiate</h3></label></a>
+					<!--<input type=button onClick="parent.location='index.html'" value='<label><h3>Beginner</h3></label>'>-->	
 				</div>
+					
 			</div>
+			
 		<!-- </div> -->
-
-		<!-- <div class="col-sm-6 col-xs-12"> -->
 			<div class="radio">
-				<div class="level-button">
-					<label><input type="radio" name="optradio" id="super"><h3>I'm practically a Superhero:</h3></label>
-					<p>I should teach fitness classes/or compete in Fitness Competitions(Oh, wait! I do!)</p>
+				<div class="level-button-3">
+					<!--<label><input type="radio" name="optradio" id="begin"><h3>Beginner</h3></label>-->
+					<a href="http://hotmamafit.com/ignite/burn.html" style="text-decoration: none;"<label><h3>Burn: Advanced</h3></label></a>
+					<!--<input type=button onClick="parent.location='index.html'" value='<label><h3>Beginner</h3></label>'>-->	
 				</div>
+					
 			</div>
+
+			<div class="radio">
+				<div class="level-button-4">
+					<!--<label><input type="radio" name="optradio" id="begin"><h3>Beginner</h3></label>-->
+					<a href="http://hotmamafit.com/ignite/torch.html" style="text-decoration: none;"<label><h3>Torch: I'm practically a Superhero</h3></label></a>
+					<!--<input type=button onClick="parent.location='index.html'" value='<label><h3>Beginner</h3></label>'>-->	
+				</div>
+					
+			</div>	
+	
 		<!-- </div> -->
 
-		<a href="" id="submit" class="btn btn-primary pull-right">Submit</a>
+		<!--<a href="" id="submit" class="btn btn-primary pull-right">Submit</a>-->
 	</div>
 	</div><!-- end container -->
 
 	<div class="footer">
 		<img src="../images/logo.svg" class = "logo img-responsive">
 	</div>
+	<!--
 	<script>
 	$(document).ready(function(){
 	    $("#begin").click(function(){
@@ -173,5 +211,6 @@ input[type=radio] {
 	    });
 	});
 	</script>
+	-->
 </body>
 </html>
