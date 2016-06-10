@@ -2,10 +2,11 @@ body {
 	font-family: 'Bree Serif', sans-serif;
 }
 
-video {
+/*video {
   width: 100%    !important;
   height: auto   !important;
-}
+}*/
+
 
 @media (min-width:641px) {
 	.buybutton {
@@ -21,7 +22,6 @@ video {
 }
 
 #pink { color: #e90e8d; }
-
 
 #lindsay {
 	width: 150px;
@@ -44,8 +44,8 @@ p {
 	font-size: 16px;
 }
 
-ul li {
-	padding: 8px 0;
+li {
+	padding: 0;
 }
 
 .buybutton {
@@ -53,14 +53,14 @@ ul li {
 	padding: 10px;
 	margin: 35px;
 	width: 50%;
-	border: none;
 	border-radius: 10px;
 	font-size: 5.5vw;
+	border: 2px solid #fff;
 }
 
 .buybutton:hover {
-	background-color: rgba(233,14,141,0.6);
-	border-color: #e90e8d;
+	background-color: #9d2067;
+	border-color:#fff;
 }
 
 .center { text-align:center; }
