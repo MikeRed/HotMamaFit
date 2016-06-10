@@ -32,6 +32,8 @@ body {
 .ignitebg {
 	padding: 25px;
 	background-image: url("../images/ignitebg.png") center;
+	background-repeat: no-repeat;
+	background-color: #e90e8d;
 }
 
 h1 {
@@ -47,6 +49,17 @@ p {
 li {
 	padding: 0;
 }
+
+
+
+@media (max-width:640px) {
+    div>iframe {
+        width:100%;
+        height:auto;
+    }
+}
+
+
 
 .buybutton {
 	background-color: #e90e8d;
