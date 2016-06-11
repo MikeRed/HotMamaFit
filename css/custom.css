@@ -71,7 +71,23 @@ li {
 	border: 2px solid #fff;
 }
 
+.pricereducebtn {
+	background-color: #e90e8d;
+	padding: 10px;
+	margin: 15px;
+	margin-top: 5px !important;
+	width: 50%;
+	border-radius: 10px;
+	font-size: 5.5vw;
+	border: 2px solid #fff;
+}
+
 .buybutton:hover {
+	background-color: #9d2067;
+	border-color:#fff;
+}
+
+.pricereducebtn:hover {
 	background-color: #9d2067;
 	border-color:#fff;
 }
@@ -95,4 +111,8 @@ li {
 	background-color: #000;
 	color: #FFF;
 	padding: 4vw;
+}
+
+#red {
+	color: red;
 }
