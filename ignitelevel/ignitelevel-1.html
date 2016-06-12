@@ -13,37 +13,65 @@ body {
 }
 .container {
 	margin: auto;
-	padding: 10px;
-	width: 90%;
-}
+	padding: 25px;
 
+}
+.group img {
+	float: left;
+    width: 120px;
+	max-width: 130px;
+    height: auto;
+
+
+}
+.group h3 {
+	position: relative;
+	top: 18px;
+	left: 10px;
+}
 
 .level-button-1 {
 	background: #e8b9d5;
-	padding: 10px;
+	border: none;
+	box-shadow: none;
+	padding: 10px 25px;
+	margin: 20px 0;
 	width: 100%;
 	border-radius: 18px;
-	display:inline-block;
-	vertical-align: b0ttom;
+	min-height: 260px;
+
+
 }
 
 .level-button-2 {
 	background: #e380b4;
-	padding: 10px;
+	border: none;
+	box-shadow: none;
+	padding: 10px 25px;
+	margin: 20px 0;
 	width: 100%;
 	border-radius: 18px;
+	min-height: 260px;
 }
 
 .level-button-3 {
 	background: #e14b9b;
-	padding: 10px;
+	border: none;
+	box-shadow: none;
+	padding: 10px 25px;
+	margin: 20px 0;
 	width: 100%;
+	min-height: 260px;
 	border-radius: 18px;
 }
 
 .level-button-4 {
 	background: #e90b8d;
-	padding: 10px;
+	border: none;
+	box-shadow: none;
+	padding: 10px 25px;
+	margin: 20px 0;
+	min-height: 260px;
 	width: 100%;
 	border-radius: 18px;
 }
@@ -65,7 +93,7 @@ body {
 h1 {
 	font-size: 9vw;
 	color: #fff;
-	
+
 
 }
 h2 {
@@ -76,11 +104,11 @@ h2 {
 
 h3 {
 
-	font-size: 7.9vw;
+	font-size: 7.4vw;
 	margin: 0;
-	padding: 0px 20px;
+	padding: 0px 5px;
 	color:#000;
-	
+
 }
 p {
 	font-size: 3.4vw !important;
@@ -92,30 +120,17 @@ p {
 	font-size: 8vw
 }
 
-#pink-2 {
-	color: #e90e8d;
-	text-align: center;
-	font-size: 8vw
-}
 
-
-
-input[type=radio] {
-    border: 0px;
-    height: 0em;
-    width: 1.2em;
-
-}
 .footer {
 	width: 100%;
-	padding: 0;
+	padding: 30px 20px;
 	margin: 0;
 }
 
 .ignite {
-	width: 30vw;
+	width: 22vw;
 	height: auto;
-	padding: 0 10px 10px 0px;
+	padding: 0 15px 10px 15px;
 }
 .logo {
 	width: 60%;
@@ -128,69 +143,63 @@ input[type=radio] {
 	flex-flow: row wrap;
 }
 
-.row-fluid .radio {
-	flex: 1 0 6em;
+.container {
+	display: table;
 }
-
+input[type=button] {
+  vertical-align: middle;
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+.button-wrapper {
+  background: darkorange;
+  display: table-cell;
+  vertical-align: middle;
+}
 </style>
-
-
-
 </head>
+
+
 <body>
+	<div class="container-fluid">
 
-
-	<div class="container fluid">
-	<div class = "row-fluid">
 		<div class="heading-container">
 			<h1>Thanks!</h1>
 			<h2 >Choose your fitness level to activate your <img src="../images/ignite.svg" class = "ignite"/> promo code NOW!</h2>
 		</div>
-		<h2 id = "pink">Select your current</h2>
-		<h2 id = "pink-2">fitness level:</h2>
-		
-		<!-- <div class="col-sm-6 col-xs-12"> -->
-			<div class="radio">
-				<div class="level-button-1">
-					<!--<label><input type="radio" name="optradio" id="begin"><h3>Beginner</h3></label>-->
-					<a href="../fuel/fuel.html" style="text-decoration: none;" ><img src="../images/fuel.svg" height="auto" width="120"/></a><label><h3>Fuel: Beginner</h3></label></a>
-					<!--<input type=button onClick="parent.location='index.html'" value='<label><h3>Beginner</h3></label>'>-->	
-				</div>
-					
-			</div>
-			
-			<div class="radio">
-				<div class="level-button-2">
-					<!--<label><input type="radio" name="optradio" id="begin"><h3>Beginner</h3></label>-->
-					<a href="../flash/flash.html" style="text-decoration: none;"><img src="../images/flash.svg" height="auto" width="120"/></a><label><h3>Flash: Intermidiate</h3></label></a>
-					<!--<input type=button onClick="parent.location='index.html'" value='<label><h3>Beginner</h3></label>'>-->	
-				</div>
-					
-			</div>
-			
-		<!-- </div> -->
-			<div class="radio">
-				<div class="level-button-3">
-					<!--<label><input type="radio" name="optradio" id="begin"><h3>Beginner</h3></label>-->
-					<a href="../burn/burn.html" style="text-decoration: none;"><img src="../images/burn.svg" height="auto" width="120"/></a><label><h3>Burn: Advanced</h3></label></a>
-					<!--<input type=button onClick="parent.location='index.html'" value='<label><h3>Beginner</h3></label>'>-->	
-				</div>
-					
-			</div>
+		<h2 id = "pink">Select your current<br> fitness level:</h2>
 
-			<div class="radio">
-				<div class="level-button-4">
-					<!--<label><input type="radio" name="optradio" id="begin"><h3>Beginner</h3></label>-->
-					<a href="../torch/torch.html" style="text-decoration: none;"><img src="../images/torch.svg" height="auto" width="120"/></a><label><h3>Torch: I'm practically a Superhero</h3></label></a>
-					<!--<input type=button onClick="parent.location='index.html'" value='<label><h3>Beginner</h3></label>'>-->	
-				</div>
-					
-			</div>	
-	
-		<!-- </div> -->
+		<button class = "level-button-1">
+			<div class="group">
+				<a href="../fuel/fuel.html"><img src="../images/fuel.svg"/>
+				</a>
+				<h3>FUEL: Beginner</h3>
+			</div>
+		</button>
 
-		<!--<a href="" id="submit" class="btn btn-primary pull-right">Submit</a>-->
-	</div>
+		<button class = "level-button-2">
+			<div class="group">
+				<a href="../flash/flash.html" ><img src="../images/flash.svg"/>
+				</a>
+				<h3>FLASH: Intermidiate</h3>
+			</div>
+		</button>
+
+		<button class = "level-button-3">
+			<div class="group">
+				<a href="../burn/burn.html"><img src="../images/burn.svg" /></a>
+				<h3>BURN: Advanced</h3>
+			</div>
+		</button>
+
+		<button class = "level-button-4">
+			<div class="group">
+				<a href="../torch/torch.html"><img src="../images/torch.svg"/></a>
+				<h3>TORCH: I'm practically<br> a Superhero</h3>
+			</div>
+		</button>
+
 	</div><!-- end container -->
 
 	<div class="footer">
