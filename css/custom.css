@@ -2,12 +2,6 @@ body {
 	font-family: 'Bree Serif', sans-serif;
 }
 
-/*video {
-  width: 100%    !important;
-  height: auto   !important;
-}*/
-
-
 @media (min-width:641px) {
 	.buybutton {
 		padding: 10px;
@@ -29,15 +23,8 @@ body {
 	border-radius: 50%;
 }
 
-.ignitebg {
-	padding: 25px;
-	background-image: url("../images/ignitebg.png") center;
-	background-repeat: no-repeat;
-	background-color: #e90e8d;
-}
-
 h1 {
-	font-size: 5em;
+	font-size: 7em;
 	padding: 10px;
 }
 
@@ -96,7 +83,8 @@ li {
 
 .ignitebg {
 	background-image: url("../images/ignitebg.png");
-	background-color: #FFF;
+	background-repeat: no-repeat;
+	background-position:  bottom;
 	padding: 4vw;
 	color: #000;
 }
