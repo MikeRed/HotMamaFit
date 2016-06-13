@@ -166,11 +166,10 @@ input[type=button] {
 
 		<div class="heading-container">
 			<h1>Thanks!</h1>
-			<h2 >Choose your fitness level to activate your <img src="../images/ignite.svg" class = "ignite"/> promo code NOW!</h2>
+			<h2 id = "pink" >Activate your promo code by choosing your  <img src="../images/ignite.svg" class = "ignite"/> fitness level:</h2>
 		</div>
-		<h2 id = "pink">Select your current<br> fitness level:</h2>
-
-		<button class = "level-button-1">
+		
+		<button class = "level-button-1" onclick="location.href='../fuel/fuel.html'">
 			<div class="group">
 				<a href="../fuel/fuel.html"><img src="../images/fuel.svg"/>
 				</a>
@@ -178,7 +177,7 @@ input[type=button] {
 			</div>
 		</button>
 
-		<button class = "level-button-2">
+		<button class = "level-button-2" onclick="location.href='../flash/flash.html'">
 			<div class="group">
 				<a href="../flash/flash.html" ><img src="../images/flash.svg"/>
 				</a>
@@ -186,14 +185,14 @@ input[type=button] {
 			</div>
 		</button>
 
-		<button class = "level-button-3">
+		<button class = "level-button-3" onclick="location.href='../burn/burn.html'">
 			<div class="group">
 				<a href="../burn/burn.html"><img src="../images/burn.svg" /></a>
 				<h3>BURN: Advanced</h3>
 			</div>
 		</button>
 
-		<button class = "level-button-4">
+		<button class = "level-button-4" onclick="location.href='../torch/torch.html'">
 			<div class="group">
 				<a href="../torch/torch.html"><img src="../images/torch.svg"/></a>
 				<h3>TORCH: I'm practically<br> a Superhero</h3>
@@ -205,23 +204,6 @@ input[type=button] {
 	<div class="footer">
 		<img src="../images/logo.svg" class = "logo img-responsive">
 	</div>
-	<!--
-	<script>
-	$(document).ready(function(){
-	    $("#begin").click(function(){
-	        $("#submit").attr("href", "http://hotmamafit.com/ignite/fuel.html ");
-	    });
-	    $("#int").click(function(){
-	        $("#submit").attr("href", "http://hotmamafit.com/ignite/flash.html ");
-	    });
-	    $("#adv").click(function(){
-	        $("#submit").attr("href", "http://hotmamafit.com/ignite/burn.html");
-	    });
-	    $("#super").click(function(){
-	        $("#submit").attr("href", "http://hotmamafit.com/ignite/torch.html");
-	    });
-	});
-	</script>
-	-->
+
 </body>
 </html>
