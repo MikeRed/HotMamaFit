@@ -19,6 +19,14 @@ body {
 	p {
 		font-size: 30px;
 	}
+
+	h2 h3 {
+		font-size: 7vw !important;
+	}
+}
+
+h2 h3 {
+	font-size: 7vw !important;
 }
 
 #pink { color: #e90e8d; }
@@ -36,7 +44,7 @@ h1 {
 
 p {
 	padding: 10px;
-	font-size: 27px;
+	font-size: 4vw;
 }
 
 li {
@@ -124,4 +132,12 @@ li {
 
 #red {
 	color: red;
+}
+
+.big {
+	font-size: 7vw;
+}
+
+.lessbigbutstillbigyouknow {
+	font-size: 5vw;
 }
