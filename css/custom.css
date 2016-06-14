@@ -64,6 +64,16 @@ li {
 	border: 2px solid #fff;
 }
 
+.burnbutton {
+	background-color: #e90e8d;
+	padding: 10px;
+	margin: 35px;
+	width: 50%;
+	border-radius: 10px;
+	font-size: 4.5vw;
+	border: 2px solid #fff;
+}
+
 .pricereducebtn {
 	background-color: #e90e8d;
 	padding: 10px;
@@ -71,7 +81,7 @@ li {
 	margin-top: 5px !important;
 	width: 50%;
 	border-radius: 10px;
-	font-size: 5.5vw;
+	font-size: 4.5vw;
 	border: 2px solid #fff;
 }
 
