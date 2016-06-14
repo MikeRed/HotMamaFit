@@ -35,10 +35,10 @@ body {
     border: none;
     box-shadow: none;
     padding: 10px 25px;
-    margin: 20px 0;
+    margin: 18px 0;
     width: 100%;
     border-radius: 18px;
-    min-height: 260px;
+    min-height: 200px;
 
 
 }
@@ -48,10 +48,10 @@ body {
     border: none;
     box-shadow: none;
     padding: 10px 25px;
-    margin: 20px 0;
+    margin: 18px 0;
     width: 100%;
     border-radius: 18px;
-    min-height: 260px;
+    min-height: 200px;
 }
 
 .level-button-3 {
@@ -59,9 +59,9 @@ body {
     border: none;
     box-shadow: none;
     padding: 10px 25px;
-    margin: 20px 0;
+    margin: 18px 0;
     width: 100%;
-    min-height: 260px;
+    min-height: 200px;
     border-radius: 18px;
 }
 
@@ -70,8 +70,8 @@ body {
     border: none;
     box-shadow: none;
     padding: 10px 25px;
-    margin: 20px 0;
-    min-height: 260px;
+    margin: 18px 0;
+    min-height: 200px;
     width: 100%;
     border-radius: 18px;
 }
@@ -104,12 +104,17 @@ h2 {
 
 h3 {
 
-    font-size: 7.4vw;
+    font-size: 7.1vw;
     margin: 0;
     padding: 0px 5px;
     color:#000;
+}
+.button-heading {
+    font-size: 7vw;
+    text-align: left;
 
 }
+
 p {
     font-size: 3.4vw !important;
     color: #fff;
@@ -133,11 +138,6 @@ p {
     padding: 0 15px 10px 15px;
     vertical-align: -6%;
 }
-.logo {
-    width: 60%;
-    margin: 0 auto;
-    padding-bottom: 50px;
-}
 
 .row-fluid {
     columns: 100% 1;
@@ -157,13 +157,16 @@ input[type=button] {
 	display: table-cell;
 	vertical-align: middle;
 }
+.level-icon {
+    margin: 0 10px 0 8px;
+}
 
 .main-logo {
-	width: 55vw;
+	width: 66vw;
 	display:block;
-margin-left:auto;
-margin-right:auto;
-padding: 15px;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 15px;
 }
 
 @media (min-width:680px) {
@@ -222,13 +225,7 @@ padding: 15px;
 		width: 17%;
 		height: auto;
 	}
-	.logo {
-		width: 30%;
-	 	margin: 0 auto;
-	 	padding-bottom: 10px;
-		height: 40%;
-	}
-​
+
 }/*end @media queries*/
 </style>
 </head>
@@ -247,31 +244,31 @@ padding: 15px;
 		<div class = "row-fluid">
 	        <button class = "level-button-1" onclick="location.href='../fuel/fuel.html'">
 	            <div class="group">
-	                <a href="../fuel/fuel.html"><img src="../images/fuel.svg"/>
+	                <a href="../fuel/fuel.html"><img src="../images/fuel.svg" class = "level-icon"/>
 	                </a>
-	                <h3>FUEL: Beginner</h3>
+	                <h3 class ="button-heading">FUEL: Beginner</h3>
 	            </div>
 	        </button>
 
 	        <button class = "level-button-2" onclick="location.href='../flash/flash.html'">
 	            <div class="group">
-	                <a href="../flash/flash.html" ><img src="../images/flash.svg"/>
+	                <a href="../flash/flash.html" ><img src="../images/flash.svg" class = "level-icon"/>
 	                </a>
-	                <h3>FLASH: Intermediate</h3>
+	                <h3 class ="button-heading">FLASH: Intermediate</h3>
 	            </div>
 	        </button>
 
 	        <button class = "level-button-3" onclick="location.href='../burn/burn.html'">
 	            <div class="group">
-	                <a href="../burn/burn.html"><img src="../images/burn.svg" /></a>
-	                <h3>BURN: Advanced</h3>
+	                <a href="../burn/burn.html"><img src="../images/burn.svg" class = "level-icon"/></a>
+	                <h3 class ="button-heading">BURN: Advanced</h3>
 	            </div>
 	        </button>
 
 	        <button class = "level-button-4" onclick="location.href='../torch/torch.html'">
 	            <div class="group">
-	                <a href="../torch/torch.html"><img src="../images/torch.svg"/></a>
-	                <h3>TORCH: I'm practically<br> a Superhero</h3>
+	                <a href="../torch/torch.html"><img src="../images/torch.svg" class = "level-icon"/></a>
+	                <h3 class ="button-heading">TORCH: I'm a Superhero</h3>
 	            </div>
 	        </button>
 		</div><!-- end row-fluid -->
