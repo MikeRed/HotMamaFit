@@ -98,6 +98,10 @@ li {
 	border-color:#fff;
 }
 
+.FAQ li{
+	margin-top:75px;
+}
+
 .pricereducebtn:hover {
 	background-color: #9d2067;
 	border-color:#fff;
@@ -105,14 +109,15 @@ li {
 
 .center { text-align:center; }
 
-.ignitebg {
-	background-image: url("../images/ignitebg.png");
-	background-repeat: no-repeat;
-	background-position:  bottom;
-	padding: 4vw;
-	color: #000;
+.ignitebg {    background-image: linear-gradient(
+     rgba(255, 255, 255, 0.48),
+     rgba(255, 255, 255, 0.48)
+   ),url("../images/ignitebg.png");
+    background-repeat: no-repeat;
+    background-position:  bottom;
+    padding: 4vw;
+    color: #000;
 }
-
 .whitewell {
 	background-color: #FFF;
 	color: #000;
