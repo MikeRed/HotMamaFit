@@ -35,11 +35,10 @@ body {
     border: none;
     box-shadow: none;
     padding: 10px 25px;
-    margin: 20px 0;
-    width: 100%;
+    margin: 20px;
     border-radius: 18px;
     min-height: 260px;
-
+    min-width: 90%;
 
 }
 
@@ -48,10 +47,10 @@ body {
     border: none;
     box-shadow: none;
     padding: 10px 25px;
-    margin: 20px 0;
-    width: 100%;
+    margin: 20px;
     border-radius: 18px;
     min-height: 260px;
+    min-width: 90%;
 }
 
 .level-button-3 {
@@ -59,9 +58,9 @@ body {
     border: none;
     box-shadow: none;
     padding: 10px 25px;
-    margin: 20px 0;
-    width: 100%;
+    margin: 20px;
     min-height: 260px;
+    min-width: 90%;
     border-radius: 18px;
 }
 
@@ -70,9 +69,9 @@ body {
     border: none;
     box-shadow: none;
     padding: 10px 25px;
-    margin: 20px 0;
+    margin: 20px;
     min-height: 260px;
-    width: 100%;
+    min-width: 90%;
     border-radius: 18px;
 }
 
@@ -104,11 +103,10 @@ h2 {
 
 h3 {
 
-    font-size: 7.4vw;
     margin: 0;
     padding: 0px 5px;
     color:#000;
-
+font-size:6vh;
 }
 p {
     font-size: 3.4vw !important;
@@ -165,6 +163,21 @@ margin-right:auto;
 padding: 15px;
 }
 
+@media screen and (orientation: portrait){
+	.level-button-1 {
+		width: 100%;
+	}
+	.level-button-2 {
+		width: 100%;
+	}
+	.level-button-3 {
+		width: 100%;
+	}
+	.level-button-4 {
+		width: 100%;
+	}
+}
+
 @media screen and (orientation: landscape){
 	.heading-container{
 		width: 100%;
@@ -187,29 +200,37 @@ padding: 15px;
 		font-size: 3.4vw !important;
 		color: #fff;
 	}
+	.right{
+		float:right;
+		width:50%;
+	}
+	.right2{
+		float:left;
+		width:50%;
+	}
 	​
 	.level-button-1 {
 		background: #e8b9d5;
 		padding: 10px;
-		width: 50%;
+		width: 90%;
 	}
 	​
 	.level-button-2 {
 		background: #e380b4;
 		padding: 10px;
-		width: 50%;
+		width: 90%;
 	}
 	​
 	.level-button-3 {
 		background: #e14b9b;
 		padding: 10px;
-		width: 50%;
+		width: 90%;
 	}
 	​
 	.level-button-4 {
 		background: #e90b8d;
 		padding: 10px;
-		width: 50%;
+		width: 90%;
 	}
 
 	.icon {
@@ -239,35 +260,40 @@ padding: 15px;
 
 
 		<div class = "row-fluid">
-	        <button class = "level-button-1" onclick="location.href='../fuel/fuel.html'">
-	            <div class="group">
-	                <a href="../fuel/fuel.html"><img src="../images/fuel.svg"/>
-	                </a>
-	                <h3>FUEL: Beginner</h3>
-	            </div>
-	        </button>
-
-	        <button class = "level-button-2" onclick="location.href='../flash/flash.html'">
-	            <div class="group">
-	                <a href="../flash/flash.html" ><img src="../images/flash.svg"/>
-	                </a>
-	                <h3>FLASH: Intermediate</h3>
-	            </div>
-	        </button>
-
-	        <button class = "level-button-3" onclick="location.href='../burn/burn.html'">
-	            <div class="group">
-	                <a href="../burn/burn.html"><img src="../images/burn.svg" /></a>
-	                <h3>BURN: Advanced</h3>
-	            </div>
-	        </button>
-
-	        <button class = "level-button-4" onclick="location.href='../torch/torch.html'">
-	            <div class="group">
-	                <a href="../torch/torch.html"><img src="../images/torch.svg"/></a>
-	                <h3>TORCH: I'm practically<br> a Superhero</h3>
-	            </div>
-	        </button>
+			<div class = "right2">
+		        <button class = "level-button-1" onclick="location.href='../fuel/fuel.html'">
+		            <div class="group">
+		                <a href="../fuel/fuel.html"><img src="../images/fuel.svg"/>
+		                </a>
+		                <h3>FUEL: Beginner</h3>
+		            </div>
+		        </button>
+			</div>
+			<div class = "right">
+		        <button class = "level-button-2" onclick="location.href='../flash/flash.html'">
+		            <div class="group">
+		                <a href="../flash/flash.html" ><img src="../images/flash.svg"/>
+		                </a>
+		                <h3>FLASH: Intermediate</h3>
+		            </div>
+		        </button>
+			</div>
+			<div class = "right2">
+		        <button class = "level-button-3" onclick="location.href='../burn/burn.html'">
+		            <div class="group">
+		                <a href="../burn/burn.html"><img src="../images/burn.svg" /></a>
+		                <h3>BURN: Advanced</h3>
+		            </div>
+		        </button>
+			</div>
+			<div class = "right">
+		        <button class = "level-button-4" onclick="location.href='../torch/torch.html'">
+		            <div class="group">
+		                <a href="../torch/torch.html"><img src="../images/torch.svg"/></a>
+		                <h3>TORCH: I'm practically<br> a Superhero</h3>
+		            </div>
+		        </button>
+	        </div>
 		</div><!-- end row-fluid -->
     </div><!-- end container -->
 
