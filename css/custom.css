@@ -12,7 +12,7 @@ body {
 	}
 
 	.pricereducebtn {
-		width: 520px !important;
+		width: 70% !important;
 
 	}
 
@@ -99,7 +99,7 @@ li {
 	margin-top: 5px !important;
 	width: 50%;
 	border-radius: 10px;
-	font-size: 4.5vw;
+	font-size:7vw;
 	border: 2px solid #fff;
 }
 
