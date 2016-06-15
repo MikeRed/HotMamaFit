@@ -51,6 +51,14 @@ li {
 	padding: 0;
 }
 
+.ignite {
+    width: 30vw;
+    height: auto;
+    padding: 0 15px 10px 15px;
+    vertical-align: -6%;
+}
+
+
 .ignitebg ul li {
 	padding: 20px;
 }
@@ -100,6 +108,10 @@ li {
 	border-color:#fff;
 }
 
+.FAQ li{
+	margin-top:75px;
+}
+
 .pricereducebtn:hover {
 	background-color: #9d2067;
 	border-color:#fff;
@@ -108,7 +120,6 @@ li {
 .center { text-align:center; }
 
 .ignitebg {
-
 	background-image: linear-gradient(
       rgba(255, 255, 255, 0.48),
       rgba(255, 255, 255, 0.48)
@@ -118,7 +129,6 @@ li {
 	padding: 4vw;
 	color: #000;
 }
-
 .whitewell {
 	background-color: #FFF;
 	color: #000;
@@ -146,4 +156,9 @@ li {
 
 .lessbigbutstillbigyouknow {
 	font-size: 5vw;
+}
+
+
+.lessbig {
+	font-size: 6vw;
 }
