@@ -117,20 +117,20 @@ h3 {
 
 #twenty-eight {
     color: #e90e8d;
-    font-size:3vw !important;
+    font-size: 5vw;
     text-transform: capitalize;
     padding-bottom: 10px;
     text-align: center;
 }
 #activated-quote {
     color: #fff;
-    font-size: 4.5vw !important;
+    font-size: 6vw;
     margin: 0;
     padding: 0;
     text-align: center;
 }
 .button-heading {
-    font-size: 7vw;
+    font-size: 6vw;
     text-align: left;
 }
 
@@ -141,7 +141,6 @@ p {
 
 #pink {
     color: #e90e8d ;
-    font-size: 8vw
 }
 
 
@@ -152,7 +151,7 @@ p {
 }
 
 .ignite {
-    width: 20vw;
+    width: 23vw;
     height: auto;
     padding: 0 15px 0px 15px;
     vertical-align: -6%;
@@ -188,18 +187,22 @@ input[type=button] {
     padding: 15px;
 }
 
-@media (max-width:680px) {
-	h2 {
-		font-size: 69px !important;
-	}
+/*@media (min-width:350px) {
     #twenty-eight {
         color: #e90e8d;
-        font-size:35px;
+        font-size:30px;
         text-transform: capitalize;
         padding-bottom: 10px;
         text-align: center;
     }
-}
+    #activated-quote {
+        color: #fff;
+        font-size:30px !important;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+}*/
 
 @media screen and (orientation: landscape){
 	.heading-container{
@@ -213,7 +216,6 @@ input[type=button] {
 	}
 	#pink {
 		color: #e90e8d;
-		font-size: 3.5vw;
 		text-align: center;
 		line-height: 100%;
 	}
@@ -252,10 +254,6 @@ input[type=button] {
 		height: auto;
 	}
 
-	.newsize {
-		font-size: 3vw !important;
-	}
-
 }/*end @media queries*/
 </style>
 </head>
@@ -267,10 +265,10 @@ input[type=button] {
         <div class="heading-container">
             <img src="images/HotMama_Hori_PW.svg" class = "main-logo"/>
             <h1>Thanks!</h1>
-            <h3 class = "newsize" id = "activated-quote">You've activated your<img src="images/original-ignitelogo_wp_noprog.svg" class = "ignite"/> promo code!</h3>
+            <h3 class = "newsize" id = "activated-quote">Select your fitness level to activate your</h3>
 
-            <h3 id= "twenty-eight">28 Day At Home Fitness Program</h3>
-            <h2> Select your fitness level:</h2>
+            <h3 id= "twenty-eight">28 Day At Home Fitness Program<br> <img src="images/original-ignitelogo_wp_noprog.svg" class = "ignite"/> PROMO CODE!</h3> 
+            <h2 class = "activated-quote"> Select your fitness level:</h2>
         </div>
 
 
