@@ -112,15 +112,21 @@ h3 {
 
 #twenty-eight {
     color: #e90e8d;
-    font-size:4vw;
+    font-size:3vw !important;
     text-transform: capitalize;
     padding-bottom: 10px;
+    text-align: center;
+}
+#activated-quote {
+    color: #fff;
+    font-size:2.5vw !important;
+    margin: 0;
+    padding: 0;
     text-align: center;
 }
 .button-heading {
     font-size: 7vw;
     text-align: left;
-
 }
 
 p {
@@ -141,9 +147,9 @@ p {
 }
 
 .ignite {
-    width: 22vw;
+    width: 20vw;
     height: auto;
-    padding: 0 15px 10px 15px;
+    padding: 0 15px 0px 15px;
     vertical-align: -6%;
 }
 
@@ -177,10 +183,17 @@ input[type=button] {
     padding: 15px;
 }
 
-@media (min-width:680px) {
+@media (max-width:680px) {
 	h2 {
 		font-size: 69px !important;
 	}
+    #twenty-eight {
+        color: #e90e8d;
+        font-size:35px;
+        text-transform: capitalize;
+        padding-bottom: 10px;
+        text-align: center;
+    }
 }
 
 @media screen and (orientation: landscape){
@@ -243,11 +256,12 @@ input[type=button] {
     <div class="container-fluid">
 
         <div class="heading-container">
+            <img src="images/HotMama_Hori_PW.svg" class = "main-logo"/>
             <h1>Thanks!</h1>
+            <h3 id = "activated-quote">You've activated your<img src="images/original-ignitelogo_wp_noprog.svg" class = "ignite"/> promo code!</h3>
 
-			<img src="images/HotMama_Hori_PW.svg" class = "main-logo"/>
-            <h3 id = "twenty-eight">28 day at home fitness program</h3>
-            <h2>Activate your promo code! Choose your<img src="images/original-ignitelogo_wp_noprog.svg" class = "ignite"/> fitness level:</h2>
+            <h3 id= "twenty-eight">28 Day At Home Fitness Program</h3>
+            <h2> Select your fitness level:</h2>
         </div>
 
 
