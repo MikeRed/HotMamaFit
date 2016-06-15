@@ -161,3 +161,8 @@ li {
 .lessbig {
 	font-size: 6vw;
 }
+
+.sidemargins {
+	padding-left: 13vw;
+	padding-right: 11vw;
+}
