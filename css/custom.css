@@ -65,7 +65,7 @@ ul {
 .ignite {
     width: 43vw;
     height: auto;
-    padding: 0 15px 10px 15px;
+    padding: 35px 15px 35px 15px;
     vertical-align: -6%;
 }
 
@@ -135,8 +135,8 @@ ul {
 
 .ignitebg {
 	background-image: linear-gradient(
-      rgba(255, 255, 255, 0.48),
-      rgba(255, 255, 255, 0.48)
+      rgba(255, 255, 255, 0.36),
+      rgba(255, 255, 255, 0.36)
     ),url("../images/original-hot-mama-fit-background-pinkONLY.jpg");
 	background-repeat: no-repeat;
 	background-position:  bottom;
