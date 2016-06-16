@@ -7,6 +7,10 @@ iframe {
 
 }
 
+
+.level-logo {
+	margin-top: 5vw;
+}
 .container {
 	padding:0;
 	margin: 0 auto;
@@ -109,7 +113,7 @@ ul {
 	margin: 15px;
 	margin-top: 5px !important;
 	border-radius: 10px;
-	font-size:8vw;
+	font-size:6.8vw;
 	border: 2px solid #fff;
 }
 
