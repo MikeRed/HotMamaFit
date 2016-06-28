@@ -30,10 +30,12 @@ iframe { padding-top: 35px; }
 	margin: 35px;
 	border-radius: 10px;
 	border: 2px solid #fff;
+	color: #fff;
 }
-.buybutton:hover {
+.buybutton:hover,.buybutton:focus,.buybutton:active {
 	background-color: #9d2067;
 	border-color:#fff;
+	color: #fff;
 }
 
 .burnbutton {
@@ -42,6 +44,12 @@ iframe { padding-top: 35px; }
 	margin: 35px;
 	border-radius: 10px;
 	border: 2px solid #fff;
+	color: #fff;
+}
+.burnbutton:hover,.burnbutton:focus,.burnbutton:active {
+	background-color: #9d2067;
+	border-color:#fff;
+	color: #fff;
 }
 
 .pricereducebtn {
@@ -50,11 +58,13 @@ iframe { padding-top: 35px; }
 	margin: 15px;
 	border-radius: 10px;
 	border: 2px solid #fff;
+	color: #fff;
 }
 
-.pricereducebtn:hover {
+.pricereducebtn:hover,.pricereducebtn:focus,.pricereducebtn:active {
 	background-color: #9d2067;
 	border-color:#fff;
+	color: #fff;
 }
 
 /* IMAGES AND BACKGROUNDS */
@@ -65,7 +75,6 @@ iframe { padding-top: 35px; }
     ),url("../images/original-hot-mama-fit-background-pinkONLY.jpg");
 	background-repeat: no-repeat;
 	background-position:  bottom;
-	background-size: 250%;
 	padding: 4vw;
 	color: #000;
 }
@@ -90,7 +99,7 @@ iframe { padding-top: 35px; }
 /******************************************************/
 /****************599 PIXELS AND BELOW******************/
 /******************************************************/
-@media only screen and (max-device-width: 599px) {
+@media only screen and (max-width: 599px) {
 	
 	/* FONT SIZES, PADDING, AND MARGINS */
 	.very-big { font-size: 10vw; }
@@ -164,6 +173,10 @@ iframe { padding-top: 35px; }
 		height: auto;
 	}
 
+	.ignitebg {
+		background-size: 250%;
+	}
+
 	#lindsay {
 		width: 55vw;
 		height: auto;
@@ -173,7 +186,7 @@ iframe { padding-top: 35px; }
 /******************************************************/
 /*****************600 TO 1099 PIXELS*******************/
 /******************************************************/
-@media only screen and (min-device-width:600px) and (max-device-width: 1099px) {
+@media only screen and (min-width:600px) and (max-width: 1099px) {
 
 /* FONT SIZES, PADDING, AND MARGINS */
 	.very-big { font-size: 14vw; }
@@ -243,56 +256,67 @@ iframe { padding-top: 35px; }
 		width: 150px;
 		height: 150px;
 	}
+	.ignitebg {
+		background-size: 100%;
+	}
 }
 
 /******************************************************/
 /****************1100 PIXELS AND ABOVE*****************/
 /******************************************************/
-@media only screen and (min-device-width:1100 ) {
+@media only screen and (min-width:1100px ) {
 
 	/* FONT SIZES, PADDING, AND MARGINS */
-	.very-big { font-size: 14vw; }
+	.very-big { font-size: 90px; }
 
-	.big { font-size: 12vw; }
+	.big { font-size: 45px; }
 
-	.medium { font-size: 9vw; }
+	.medium { font-size: 27px }
 
-	.small { font-size: 5vw; }
+	.small { font-size: 15px; }
 
-	.pricetext { font-size: 40px; }
+	.pricetext { font-size: 40px; margin-top: -15px; }
 
 	#torch-big { font-size: 5.5vw; }
 
 	p {
-		padding: 10px;
-		font-size: 100vw;
+		padding: 10px 0px;
+		font-size: 28px;
+	}
+
+	#pink.medium {
+		padding-top:20px;
+		padding-bottom:10px;
+		font-size:35px;
 	}
 
 	ul { margin:0px 20px 0 10vw; }
 
-	.ignitebg ul li { padding: 17px; }
+	.ignitebg ul li { padding: 0px; }
 
-	.FAQ li { margin-top:75px; }
+	.FAQ li { margin-top:50px; }
 
 	.sidemargins {
-		padding-left: 13vw;
-		padding-right:11vw;
+		padding-left:100px;
+		padding-right:100px;
 	}
 
 	/*BUTTONS*/
 	.buybutton {
-		width: 50%;
-		font-size: 7vw;
+		font-size: 45px;
+		padding: 0px 25px;
+		border-radius: 5px;
 	}
 
 	.burnbutton {
-		width: 50%;
-		font-size: 4.5vw;
+		font-size: 45px;
+		padding: 0px 25px;
 	}
 
 	.pricereducebtn {
-		width: 90%;
-		font-size:8vw;
+		font-size:40px;
+		padding: 0px 25px;
+		margin-bottom:40px;
 	}
 
 	/* IMAGES AND BACKGROUNDS */
@@ -306,7 +330,7 @@ iframe { padding-top: 35px; }
 	}
 
 	.ignite {
-	    width: 43vw;
+	    width: 27vw;
 	    min-width: 250px;
 	    max-width: 500px;
 	    height: auto;
@@ -314,8 +338,19 @@ iframe { padding-top: 35px; }
 	    vertical-align: -6%;
 	}
 
+	.ignitebg {
+		background-size: 100%;
+	}
+
 	.logo {
-		width: 200px;
-		height: 200px;
+		width: 150px;
+		height: 150px;
+	}
+
+	.testimonial {
+		max-height:350px;
+		max-width:400px;
+		padding-bottom:10px;
+		border:10px;
 	}
 }
