@@ -258,7 +258,7 @@ iframe { padding-top: 35px; }
 		height: auto;
 	}
 	.ignitebg {
-		background-size: 100%;
+		background-size: 200%;
 	}
 }
 
@@ -286,9 +286,9 @@ iframe { padding-top: 35px; }
 	}
 
 	#pink.medium {
-		padding-top:20px;
+		padding-top:18px;
 		padding-bottom:10px;
-		font-size:35px;
+		font-size:32px;
 	}
 
 	ul { margin:0px 20px 0 10vw; }
@@ -298,8 +298,8 @@ iframe { padding-top: 35px; }
 	.FAQ li { margin-top:50px; }
 
 	.sidemargins {
-		padding-left:100px;
-		padding-right:100px;
+		padding-left:200px;
+		padding-right:200px;
 	}
 
 	/*BUTTONS*/
@@ -351,9 +351,14 @@ iframe { padding-top: 35px; }
 	}
 
 	.testimonial {
-		max-height:350px;
-		max-width:400px;
+		width: 400px;
+		height: auto;
 		padding-bottom:10px;
 		border:10px;
+	}
+
+	#lindsay {
+		width: 350px;
+		height: auto;
 	}
 }
