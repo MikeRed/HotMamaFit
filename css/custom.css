@@ -70,8 +70,8 @@ iframe { padding-top: 35px; }
 /* IMAGES AND BACKGROUNDS */
 .ignitebg {
 	background-image: linear-gradient(
-      rgba(255, 255, 255, 0.36),
-      rgba(255, 255, 255, 0.36)
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
     ),url("../images/original-hot-mama-fit-background-pinkONLY.jpg");
 	background-repeat: no-repeat;
 	background-position:  bottom;
@@ -159,7 +159,7 @@ iframe { padding-top: 35px; }
 	.ignite {
 	    width: 50vw;
 	    height: auto;
-	    padding: 15px 0px 15px 15px;
+	    padding: 5px 0px 5px 15px;
 	    vertical-align: -6%;
 	}
 
@@ -215,6 +215,10 @@ iframe { padding-top: 35px; }
 		padding-right:13vw;
 	}
 
+	.pad-bt-20 {
+		padding-bottom: 20px;
+	}
+
 	/*BUTTONS*/
 	.buybutton {
 		width: 65%;
@@ -237,7 +241,7 @@ iframe { padding-top: 35px; }
 	.ignite {
 	    width: 35vw;
 	    height: auto;
-	    padding: 15px 0px 15px 15px;
+	    padding: 5px 0px 5px 15px;
 	    vertical-align: -6%;
 	}
 
@@ -301,6 +305,11 @@ iframe { padding-top: 35px; }
 		padding-left:200px;
 		padding-right:200px;
 	}
+
+	.pad-bt-20 {
+		padding-bottom: 20px;
+	}
+
 
 	/*BUTTONS*/
 	.buybutton {
