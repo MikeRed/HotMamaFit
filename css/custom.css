@@ -17,7 +17,21 @@ iframe { padding-top: 35px; }
 }
 
 .faq-question {
-	display: inline;
+	display: inline-block;
+}
+
+h3.faq-question {
+	margin-right:10% !important;
+}
+
+li.faq-question {
+	margin-top:0px !important;
+}
+
+.FAQ button {
+	right:5% !important;
+	margin-top:24px !important;
+	position:absolute !important;
 }
 
 /* FONT SIZES, PADDING, AND MARGINS */
