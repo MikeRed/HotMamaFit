@@ -16,6 +16,10 @@ iframe { padding-top: 35px; }
     }
 }
 
+.faq-question {
+	display: inline;
+}
+
 /* FONT SIZES, PADDING, AND MARGINS */
 .blackwell p {
 	text-align: left;
