@@ -181,8 +181,27 @@ iframe { padding-top: 35px; }
 		height: auto;
 	}
 
-	.testimonial-1, .testimonial-2 {
+	.testimonial-1 {
 		width: 65vw;
+		max-width: 450px;
+		height: auto;
+	}
+	
+	.testimonial-2 {
+		width: 65vw;
+		max-width: 350px;
+		height: auto;
+	}
+	
+	.small-testimonial-1 {
+		width: 65vw;
+		max-width: 450px;
+		height: auto;
+	}
+	
+	.small-testimonial-2 {
+		width: 65vw;
+		max-width: 350px;
 		height: auto;
 	}
 
@@ -267,7 +286,25 @@ iframe { padding-top: 35px; }
 		height: auto;
 	}
 
-	.testimonial-1, .testimonial-2 {
+	.testimonial-1 {
+		width: 50vw;
+		max-width: 450px;
+		height: auto;
+	}
+	
+	.testimonial-2 {
+		width: 50vw;
+		max-width: 350px;
+		height: auto;
+	}
+	
+	.small-testimonial-1 {
+		width: 50vw;
+		max-width: 350px;
+		height: auto;
+	}
+	
+	.small-testimonial-2 {
 		width: 50vw;
 		max-width: 450px;
 		height: auto;
@@ -322,7 +359,17 @@ iframe { padding-top: 35px; }
 		padding-left:15vw;
 		padding-right:15vw;
 	}
+	
+	.large-sidemargins-right {
+		padding-left: 25vw;
+		padding-right: 25vw;
+	}
 
+	.large-sidemargins-left {
+		padding-left: 25vw;
+		padding-right: 25vw;
+	}
+	
 	.pad-bt-20 {
 		padding-bottom: 20px;
 	}
