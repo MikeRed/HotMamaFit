@@ -19,9 +19,21 @@ iframe { padding-top: 35px; }
 }
 
 .faq-question {
-	display: inline;
-	position: relative;
-	overflow: hidden;
+	display: inline-block;
+}
+
+h3.faq-question {
+	margin-right:10% !important;
+}
+
+li.faq-question {
+	margin-top:0px !important;
+}
+
+.FAQ button {
+	right:5% !important;
+	margin-top:24px !important;
+	position:absolute !important;
 }
 
 .pad-bt-20 { padding-bottom: 20px; }
