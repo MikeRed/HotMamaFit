@@ -88,7 +88,7 @@ h3 {
     text-align: left;
 }
 
-p {
+p.notoptin {
     font-size: 3.4vw !important;
     color: #fff;
 }
