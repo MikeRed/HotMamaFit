@@ -1,0 +1,22 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 9fd94fd..707deb6 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -68,4 +68,5 @@[m
+     </div><!-- end container-fluid -->[m
+ [m
+ </body>[m
+[32m+[m[32m<!-- This site is converting visitors into subscribers and customers with OptinMonster - http://optinmonster.com :: Campaign Title: 31 Day Lower Body Challenge Duplicate --><div id="om-xrrkrqdlcngqkecu-holder"></div><script>var xrrkrqdlcngqkecu,xrrkrqdlcngqkecu_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){xrrkrqdlcngqkecu_poll(function(){if(window['om_loaded']){if(!xrrkrqdlcngqkecu){xrrkrqdlcngqkecu=new OptinMonsterApp();return xrrkrqdlcngqkecu.init({"u":"12873.378548","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="//a.optnmnstr.com/app/js/api.min.js",o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;xrrkrqdlcngqkecu=new OptinMonsterApp();xrrkrqdlcngqkecu.init({"u":"12873.378548","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");</script><!-- / OptinMonster -->[m
+ </html>[m
+[1mdiff --git a/source/burn.html b/source/burn.html[m
+[1mindex 67e7ef0..06bf515 100644[m
+[1m--- a/source/burn.html[m
+[1m+++ b/source/burn.html[m
+[36m@@ -124,5 +124,7 @@[m
+ <script src="jquery.js"></script>[m
+ <script src="mediaelement-and-player.min.js"></script>[m
+ [m
+[32m+[m[32m<!-- This site is converting visitors into subscribers and customers with OptinMonster - http://optinmonster.com :: Campaign Title: 31 Day Lower Body Challenge Duplicate --><div id="om-xrrkrqdlcngqkecu-holder"></div><script>var xrrkrqdlcngqkecu,xrrkrqdlcngqkecu_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){xrrkrqdlcngqkecu_poll(function(){if(window['om_loaded']){if(!xrrkrqdlcngqkecu){xrrkrqdlcngqkecu=new OptinMonsterApp();return xrrkrqdlcngqkecu.init({"u":"12873.378548","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="//a.optnmnstr.com/app/js/api.min.js",o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;xrrkrqdlcngqkecu=new OptinMonsterApp();xrrkrqdlcngqkecu.init({"u":"12873.378548","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");</script><!-- / OptinMonster -->[m
+[32m+[m
+ </body>[m
+ </html>[m
