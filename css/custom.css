@@ -9,8 +9,6 @@ iframe { padding-top: 35px; }
 
 .center { text-align:center; }
 
-.vertical-align-top { vertical-align: text-top; }
-
 @media (max-width:640px) {
     div>iframe {
         width:100%;
@@ -35,9 +33,6 @@ li.faq-question {
 	margin-top:24px !important;
 	position:absolute !important;
 }
-
-.pad-bt-20 { padding-bottom: 20px; }
-.pad-bt-50 { padding-bottom: 50px; }
 
 /* FONT SIZES, PADDING, AND MARGINS */
 .blackwell p {
@@ -142,8 +137,6 @@ li.faq-question {
 
 	.small { font-size: 5vw; }
 
-	.faq-question { font-size: 5vw; }
-
 	.pricetext { 
 		font-size: 6vw;
 		margin-bottom: 0;
@@ -152,8 +145,6 @@ li.faq-question {
 	#torch-big { font-size: 5.5vw; }
 
 	p { font-size: 6vw; }
-
-	.FAQ p { font-size: 4vw; }
 
 	ul li { margin:0px 20px 0 0; }
 
@@ -256,8 +247,6 @@ li.faq-question {
 
 	.small { font-size: 3vw; }
 
-	.faq-question { font-size: 4vw; }
-
 	.pricetext { 
 		font-size: 4vw;
 		margin-bottom: 0;
@@ -274,6 +263,10 @@ li.faq-question {
 	.sidemargins {
 		padding-left: 15vw;
 		padding-right:13vw;
+	}
+
+	.pad-bt-20 {
+		padding-bottom: 20px;
 	}
 	
 	.blackwell p {
@@ -359,15 +352,13 @@ li.faq-question {
 
 	.small { font-size: 15px; }
 
-	.faq-question { font-size: 27px; }
-
 	.pricetext { font-size: 40px; margin-top: -15px; }
 
 	#torch-big { font-size: 5.5vw; }
 
 	p {
 		padding: 10px 0px;
-		font-size: 20px;
+		font-size: 19.5px;
 	}
 
 	#pink.medium {
@@ -389,12 +380,16 @@ li.faq-question {
 	
 	.large-sidemargins-right {
 		padding-left: 15vw;
-		padding-right: 20vw;
+		padding-right: 25vw;
 	}
 
 	.large-sidemargins-left {
-		padding-left: 20vw;
+		padding-left: 25vw;
 		padding-right: 15vw;
+	}
+	
+	.pad-bt-20 {
+		padding-bottom: 20px;
 	}
 	
 	.blackwell p {
