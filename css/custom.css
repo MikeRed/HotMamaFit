@@ -52,7 +52,7 @@ li.faq-question {
 .buybutton {
 	background-color: #e90e8d;
 	padding: 10px;
-	margin: 35px;
+	margin: 10px;
 	border-radius: 10px;
 	border: 2px solid #fff;
 	color: #fff;
@@ -127,7 +127,7 @@ li.faq-question {
 /****************599 PIXELS AND BELOW******************/
 /******************************************************/
 @media only screen and (max-width: 599px) {
-	
+
 	/* FONT SIZES, PADDING, AND MARGINS */
 	.very-big { font-size: 10vw; }
 
@@ -137,7 +137,7 @@ li.faq-question {
 
 	.small { font-size: 5vw; }
 
-	.pricetext { 
+	.pricetext {
 		font-size: 6vw;
 		margin-bottom: 0;
 	 }
@@ -154,7 +154,7 @@ li.faq-question {
 		padding-left: 13vw;
 		padding-right:11vw;
 	}
-	
+
 	.blackwell p {
 		padding-top: 15px;
 	}
@@ -204,19 +204,19 @@ li.faq-question {
 		max-width: 450px;
 		height: auto;
 	}
-	
+
 	.testimonial-2 {
 		width: 65vw;
 		max-width: 350px;
 		height: auto;
 	}
-	
+
 	.small-testimonial-1 {
 		width: 65vw;
 		max-width: 450px;
 		height: auto;
 	}
-	
+
 	.small-testimonial-2 {
 		width: 65vw;
 		max-width: 350px;
@@ -247,7 +247,7 @@ li.faq-question {
 
 	.small { font-size: 3vw; }
 
-	.pricetext { 
+	.pricetext {
 		font-size: 4vw;
 		margin-bottom: 0;
 	 }
@@ -268,7 +268,7 @@ li.faq-question {
 	.pad-bt-20 {
 		padding-bottom: 20px;
 	}
-	
+
 	.blackwell p {
 		padding-top: 15px;
 	}
@@ -309,19 +309,19 @@ li.faq-question {
 		max-width: 450px;
 		height: auto;
 	}
-	
+
 	.testimonial-2 {
 		width: 50vw;
 		max-width: 350px;
 		height: auto;
 	}
-	
+
 	.small-testimonial-1 {
 		width: 50vw;
 		max-width: 350px;
 		height: auto;
 	}
-	
+
 	.small-testimonial-2 {
 		width: 50vw;
 		max-width: 450px;
@@ -377,7 +377,7 @@ li.faq-question {
 		padding-left:15vw;
 		padding-right:15vw;
 	}
-	
+
 	.large-sidemargins-right {
 		padding-left: 15vw;
 		padding-right: 25vw;
@@ -387,11 +387,11 @@ li.faq-question {
 		padding-left: 25vw;
 		padding-right: 15vw;
 	}
-	
+
 	.pad-bt-20 {
 		padding-bottom: 20px;
 	}
-	
+
 	.blackwell p {
 		padding-top: 0px;
 	}
@@ -451,7 +451,7 @@ li.faq-question {
 		border:10px;
 		float: left;
 	}
-	
+
 	.testimonial-2 {
 		width: 400px;
 		height: auto;
@@ -459,7 +459,7 @@ li.faq-question {
 		border:10px;
 		float: right;
 	}
-	
+
 	.small-testimonial-1 {
 		width: 300px;
 		height: auto;
@@ -467,7 +467,7 @@ li.faq-question {
 		border:10px;
 		float: left;
 	}
-	
+
 	.small-testimonial-2 {
 		width: 300px;
 		height: auto;
