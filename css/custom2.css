@@ -3,8 +3,10 @@ body {
     background-color: #000;
 }
 
-.container-fluid {
-    padding-bottom: 50px;
+.containers {
+    padding-bottom: 10px;
+    padding-right: 5px;
+    padding-left:5px;
 }
 
 .group img {
@@ -13,21 +15,21 @@ body {
     max-width: 100px;
     height: auto;
 }
-
+/*
 .group h3 {
     position: relative;
     top: 19px;
     left: 20px;
-}
+}*/
 
 .vertical-center { vertical-align: center; }
 
 .buttonstyle {
     border: none;
     box-shadow: none;
-    padding: 1vw 25px;
+    padding: 1vw 5vw;
     margin: 3px 0;
-    min-height: 140px;
+    min-height: 40px;
     width: 70%;
     border-radius: 15px;    
 }
@@ -62,12 +64,15 @@ h1 {
     font-size: 3vw;
     color: #fff;
 	/*padding-left: 34.3vw;*/
+    margin-top:5px;
 }
 
 h2 {
     text-align: center;
     font-size: 1.9vw;
     color: #fff;
+    margin-top:5px;
+    margin-bottom:0px;
 }
 
 h3 {
@@ -87,16 +92,11 @@ h3 {
     font-size: 2.2vw;
     text-align: left;
 }
-/*
-p {
-    font-size: 3.4vw !important;
-    color: #fff;
-}
-*/
+
 #pink { color: #e90e8d; }
 
 .ignite {
-    width: 11vw;
+    width: 37vw;
     height: auto;
     padding: 0 15px 0px 15px;
     vertical-align: -6%;
@@ -132,36 +132,22 @@ input[type=button] {
 }
 
 .center { text-align: center; }
-
-
-/*******************************************/
-/************480 PIXELS AND BELOW***********/
-/*******************************************/
-@media only screen and (max-width: 480px) {
+  
     .group img {
         float: left;
-       width: 120px;
+        width: 12vw;
         max-width: 130px;
-       height: auto;
-    }
-    .group h3 {
-        position: relative;
-        top: 18px;
-        left: 10px;
+        height: auto;
     }
 
     .buttonstyle {
         border: none;
         box-shadow: none;
-        padding: 10px 25px;
-        margin: 18px 0;
+        padding: 10px 0px;
+        margin: 6px 0;
         width: 100%;
-        border-radius: 18px;
-        min-height: 200px;
-    }
-
-    .heading-container h2 h3 {
-    	font-size: 3vw !important;
+        border-radius: 8px;
+        min-height: 20px;
     }
 
     h1 {
@@ -177,106 +163,7 @@ input[type=button] {
     }
 
     h3 {
-
-        font-size: 7.1vw;
-        margin: 0;
-        padding: 0px 5px;
-        color:#000;
-    }
-
-    .welcome_message {
-    	font-size: 6vw;
-    	text-align: center;
-    	padding-bottom: 10px;
-    }
-
-    .button-heading {
-        font-size: 6vw;
-        text-align: left;
-    }
-
-    p {
-        font-size: 3.4vw !important;
-        color: #fff;
-    }
-
-    .ignite {
-        width: 35vw;
-        height: auto;
-        padding: 0 15px 0px 15px;
-        vertical-align: -6%;
-    }
-
-    .row-fluid {
-        columns: 100% 1;
-        flex-flow: row wrap;
-    	padding-left: 0vw;
-    	padding-right: 0vw;
-    }
-
-    input[type=button] {
-    	vertical-align: middle;
-    	display: block;
-    	width: 50%;
-    	margin: 0 auto;
-    }
-    .button-wrapper {
-    	display: table-cell;
-    	vertical-align: middle;
-    }
-
-    .level-icon { margin: 0 10px 0 8px; }
-
-    .main-logo {
-    	width: 66vw;
-    	display:block;
-        margin-left:auto;
-        margin-right:auto;
-        padding: 15px;
-    }
-}
-
-/*******************************************/
-/*************481 TO 1070 PIXELS************/
-/*******************************************/
-@media only screen and (min-width : 481px) and (max-width : 1070px)  {    
-    .group img {
-        float: left;
-        width: 120px;
-        max-width: 130px;
-        height: auto;
-    }
-
-    .group h3 {
-        position: relative;
-        top: 18px;
-        left: 10px;
-    }
-
-    .buttonstyle {
-        border: none;
-        box-shadow: none;
-        padding: 10px 25px;
-        margin: 18px 0;
-        width: 100%;
-        border-radius: 18px;
-        min-height: 200px;
-    }
-
-    h1 {
-        font-size: 9vw;
-        color: #fff;
-    	padding-left: 0vw;
-    }
-
-    h2 {
-        text-align: center;
-        font-size: 6vw;
-        color: #fff;
-    }
-
-    h3 {
-
+        line-height:12vw;
         font-size: 7.1vw;
         margin: 0;
         padding: 0px 5px;
@@ -296,10 +183,10 @@ input[type=button] {
     #pink { font-size: 8vw }
 
     .ignite {
-        width: 27vw;
+        /*width: 27vw;*/
         height: auto;
         padding: 0 15px 0px 15px;
-        vertical-align: -6%;
+        /*vertical-align: -6%;*/
     }
 
     .row-fluid {
@@ -332,4 +219,3 @@ input[type=button] {
         margin-right:auto;
         padding: 15px;
     }
-}
