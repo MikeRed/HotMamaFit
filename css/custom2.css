@@ -7,11 +7,17 @@ body {
     padding-bottom: 10px;
     padding-right: 5px;
     padding-left:5px;
+}/*
+@media only screen and (min-width:1050px ){
+    .containers{
+        margin:0 20vw;
+    }
 }
-
+*/
 .group img {
     float: left;
-    width: 6vw;
+    width: 4vw;
+    margin:0 20px;
     max-width: 100px;
     height: auto;
 }
@@ -76,6 +82,7 @@ h2 {
 }
 
 h3 {
+    line-height:4vw;
     font-size: 3vw;
     margin: 0;
     padding: 0px 5px;
@@ -96,7 +103,7 @@ h3 {
 #pink { color: #e90e8d; }
 
 .ignite {
-    width: 37vw;
+    width: 27vw;
     height: auto;
     padding: 0 15px 0px 15px;
     vertical-align: -6%;
@@ -132,7 +139,8 @@ input[type=button] {
 }
 
 .center { text-align: center; }
-  
+
+@media only screen and (max-width:1050px ){
     .group img {
         float: left;
         width: 12vw;
@@ -219,3 +227,4 @@ input[type=button] {
         margin-right:auto;
         padding: 15px;
     }
+}
